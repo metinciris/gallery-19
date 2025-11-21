@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Laryngeal Pyogenic Granuloma</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/openseadragon.min.js"></script>
+    <style>
+        body { margin: 0; }
+        #openseadragon { width: 100vw; height: 100vh; }
+    </style>
+</head>
+<body>
+    <div id="openseadragon"></div>
+    <script>
+        var viewer = OpenSeadragon({
+            id: "openseadragon",
+            prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/images/",
+            tileSources: "slide.dzi",
+            showNavigator: false
+        });
+    </script>
+</body>
+</html>
+        
